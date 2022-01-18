@@ -8,13 +8,13 @@ indicando que debe abonar impuestos.
 int main(){
     float sueldo;
 
-    printf("Ingresar el sueldo del operario: ");
+    printf("\nIngresar el sueldo del operario: ");
     scanf("%f", &sueldo);
 
     if (sueldo > 3000){
-        printf("El opearario debe abonar impuestos");
+        printf("\nEl opearario debe abonar impuestos");
     } else{
-        printf("El operario no de abonar impuestos");
+        printf("\nEl operario no de abonar impuestos");
     }
     getch();
     return 0;
